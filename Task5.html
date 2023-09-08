@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Table</title>
+  </head>
+  <body>
+    <form method="" action="">
+      <table border="1" align="center" width="600">
+        <caption style="font-weight: bold; color: blue">
+          Registration form
+        </caption>
+        <tr>
+          <th>First Name</th>
+          <td>
+            <input
+              type="text"
+              name="fn"
+              id="fn1"
+              maxlength="20"
+              title="First Name"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>Last Name</th>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td><input type="email" /></td>
+        </tr>
+        <tr>
+          <th>Enter your password</th>
+          <td><input type="password" /></td>
+        </tr>
+        <tr>
+          <th>Re-enter Password</th>
+          <td><input type="password" /></td>
+        </tr>
+        <tr>
+          <th>Select your gender</th>
+          <td>
+            <input type="radio" name="g" value="m" />Male<br />
+            <input type="radio" name="g" value="f" />Female
+          </td>
+        </tr>
+        <tr>
+          <th>Age:</th>
+          <td><input type="number" /></td>
+        </tr>
+
+        <tr>
+          <th>Phone Number</th>
+          <td><input type="number" /></td>
+        </tr>
+        <tr>
+          <th>Address</th>
+          <td><textarea rows="8" cols="20"></textarea></td>
+        </tr>
+        <tr>
+          <th>State</th>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <th>Country</th>
+          <td>
+            <select name="country">
+              <option value="" selected="selected" disabled="disabled">
+                Choose your country
+              </option>
+              <option value="1">India</option>
+              <option value="2">Pakistan</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>Languages Known</th>
+          <td>
+            <label style="display: inline-block"
+              ><input type="checkbox" name="x[]" value="l" /> English</label
+            >
+            <label style="display: inline-block"
+              ><input type="checkbox" name="x[]" value="l2" /> Kannada</label
+            >
+            <label style="display: inline-block"
+              ><input type="checkbox" name="x[]" value="l3" /> Hindi</label
+            >
+            <label style="display: inline-block"
+              ><input type="checkbox" name="x[]" value="l4" /> Telugu</label
+            >
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="start">
+            <label style="display: inline-block"
+              ><input type="checkbox" name="x[]" value="l" /> Hereby I declare
+              all the given details are true</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="end">
+            <p>Log in to <a href="#"> Ethnus </a> website</p>
+          </td>
+        </tr>
+      </table>
+    </form>
+    <div align="center">
+      <input type="submit" value="Register" />
+    </div>
+  </body>
+</html>

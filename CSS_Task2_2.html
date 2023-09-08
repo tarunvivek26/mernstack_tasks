@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Task 2.2</title>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #717676;
+      }
+
+      li {
+        float: left;
+        border-right: 1px solid #555;
+      }
+
+      li:last-child {
+        border-right: none;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">Java</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+    </ul>
+  </body>
+</html>
